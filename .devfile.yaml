@@ -2,16 +2,16 @@ schemaVersion: 2.2.0
 metadata:
   attributes:
     metadata-name-field: generateName
-    metadata-name-original-value: python_fastapi_course
-  name: python_fastapi_course
+    metadata-name-original-value: python-fastapi-course
+  name: python-fastapi-course
   namespace: sashirestela-dev
 attributes:
   che-theia.eclipse.org/sidecar-policy: mergeImage
 projects:
-  - name: python_fastapi_course
+  - name: python-fastapi-course
     git:
       remotes:
-        origin: https://github.com/sashirestela/python_fastapi_course.git
+        origin: https://github.com/sashirestela/python-fastapi-course.git
 components:
   - name: universal-developer-image
     container:
